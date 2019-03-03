@@ -75,7 +75,7 @@ body {
     background: #ffffff;
     line-break:10px;
     width:1250px;
-    height:1300px;
+    height:1200px;
   }
   footer{
     width:100% auto;
@@ -95,3 +95,37 @@ body {
       margin-top:10px;
       margin-bottom:40px;
     }
+
+    .container {
+      position: relative;
+      text-align: center;
+      color: white;
+      width:45%;
+      float: left;
+    }
+    
+    .centered {
+      background:#4aaaa5;
+      position: absolute;
+      top: 77%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width:58%;
+      padding:10px 1px;
+      color:#ffffff;
+    }
+   .portfolio_pics{
+     height:200px;
+     width:250px;
+   }
+   #Portfolio{
+     position: absolute;
+     width:960px;
+     height:960px;
+     top: 100px;
+     left: 230px;
+     border: 1px solid #cccccc;
+     background-color: #ffffff;
+     overflow:auto;
+     clear:both;
+   }
