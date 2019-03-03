@@ -75,10 +75,10 @@ body {
     background: #ffffff;
     line-break:10px;
     width:1250px;
-    height:960px;
+    height:1300px;
   }
   footer{
-    width:100%;
+    width:100% auto;
     margin:0px;
     padding:0px;
     background: #777777;
