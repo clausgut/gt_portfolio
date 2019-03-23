@@ -129,3 +129,58 @@ body {
      overflow:auto;
      clear:both;
    }
+/*768px*/
+
+@media (max-width: 768px) {
+
+  body {
+      margin-top: 3%;
+  }
+
+  .jewel {
+     margin-right: -1%;
+  }
+
+  .jewel:nth-child(4) {
+      margin-right: 8px;
+  }
+
+  .footer {
+      margin-top: 37%;
+  }
+
+}
+
+/*640px*/
+
+@media (max-width: 640px) {
+
+  .crystal-array {
+     width: 64%;
+     margin-left: 19%
+  }
+
+  .footer {
+      width: 43%;
+      margin-top: 52%;
+      margin-left: 29%;
+  }
+}
+
+/*375px*/
+
+@media (max-width: 375px) {
+
+  .header {
+      width: 91%;
+      margin-left: 2%;
+  }
+
+  .instructions {
+      margin-left: 8%;
+  }
+
+ .random-number {
+     width: 32%;
+     margin-left: 32%;
+ }
