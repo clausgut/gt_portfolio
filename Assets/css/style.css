@@ -133,29 +133,18 @@ body {
 
 @media (max-width: 768px) {
 
-  body {
-      margin-top: 3%;
-  }
-
-  .jewel {
-     margin-right: -1%;
-  }
-
-  .jewel:nth-child(4) {
-      margin-right: 8px;
-  }
-
-  .footer {
-      margin-top: 37%;
+  .navbar, .white-waves {
+    width:100%;
   }
 
 }
+
 
 /*640px*/
 
 @media (max-width: 640px) {
 
-  .crystal-array {
+  .parra {
      width: 64%;
      margin-left: 19%
   }
@@ -169,7 +158,7 @@ body {
 
 /*375px*/
 
-@media (max-width: 375px) {
+/* @media (max-width: 375px) {
 
   .header {
       width: 91%;
@@ -183,4 +172,4 @@ body {
  .random-number {
      width: 32%;
      margin-left: 32%;
- }
+ } */ 
