@@ -3,12 +3,21 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>my-first-bio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bio</title>
+    <!--CSS-->
     <link rel="stylesheet" type="text/css" href="Assets/css/style.css">
+    <!--FONTS-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Merriweather:300i" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css" media="screen,projection" />
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
-<body class="white-waves">
+<body>
     <!--Your HTML should have each of the following sections:
    * Header
    * Nav
@@ -18,17 +27,30 @@
    * Headers contained within the Article
    * Paragraph contained within the Article-->
 
-    <header>
-        <h1>Claudia Gutierrez</h1>
-        <div ul class="navbar">
-            <li><a href="contact.html">Contact</a></li>
+
+    <div class="main-back">
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo"></a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="index.html">About</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <ul class="sidenav" id="mobile-demo">
             <li><a href="portfolio.html">Portfolio</a></li>
             <li><a href="index.html">About</a></li>
+        </ul>
 
+        <div class="flex-container">
+            <img src="coollogo_com-2281315.png"/ id="profile" ALT="Clau" ALIGN="center">
         </div>
-    </header>
+    </div>
 
-    <section>
+    <section class="section-b">
         <h2>Portfolio</h2>
         <div class="container">
             <a href="https://clausgut.github.io/gameCollector.jquery/">
@@ -43,24 +65,24 @@
                 <img src=" gspuppie.jpg" class="portfolio_pics">
             </a>
             <div class="centered">TheWonderfullGiphyPage</div>
-        </div>>
+        </div>
         <div class="container">
             <a href="https://clausgut.github.io/TriviaGame/">
                 <img src="books.jpg" class="portfolio_pics">
             </a>
 
             <div class="centered">Trivia Game</div>
-        </div>>
-        <div class="container">
+        </div>
+        <!-- <div class="container">
             <img src="http://lorempixel.com/400/200" class="portfolio_pics">
 
             <div class="centered">Rutgers Info Widgets</div>
-        </div>>
+        </div>> -->
         <div class="container">
             <img src="http://lorempixel.com/400/200" class="portfolio_pics">
 
             <div class="centered">Rock Paper Scissors</div>
-        </div>>
+        </div>
 
 
     </section>
@@ -70,4 +92,11 @@
             2019
         </p>
     </footer>
+    <!--Script-->
+    <script src="basic.js"></script>
+    <script type="text/javascript" src="basic.js"></script>
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
 </body>
+</html>
