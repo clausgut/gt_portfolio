@@ -5,14 +5,13 @@ body {
     color: #777;
     line-height: 220%;
     margin:0px;
-    background-image: url("./../../flower2.jpg");
+    background-image: url("./../../portblue.jpg");
     width: 100%;
     
   }
-  nav{
-    opacity: 0.7;
-    background-color: blue;
-  }
+ nav {
+   opacity: 0.8;
+ }
   
     
     li a{
@@ -47,9 +46,9 @@ body {
   footer{
     width:100% auto;
     box-flex: flex;
-    border-top:10px solid;
     text-align: center;
-    color:black; }
+    color: black;
+     }
 
     .container {
       position: relative;
